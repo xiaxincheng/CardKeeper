@@ -1,0 +1,24 @@
+# 敏感与本地文件：绝不入库
+# 真实账单邮件样本（含个人信息）
+邮件样本/
+# 正式签名 keystore 与签名密码
+cardkeeper-release.jks
+signing.properties
+# 本机 SDK 路径
+local.properties
+
+# 构建产物
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# 系统文件
+.DS_Store
+*.log

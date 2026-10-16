@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 白卡面 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,40 h42 a5,5 0 0 1 5,5 v18 a5,5 0 0 1 -5,5 h-42 a5,5 0 0 1 -5,-5 v-18 a5,5 0 0 1 5,-5 z" />
+    <!-- 墨蓝磁条 -->
+    <path
+        android:fillColor="#1B2A4A"
+        android:pathData="M28,49 h52 v6 h-52 z" />
+    <!-- 黄铜细节线 -->
+    <path
+        android:fillColor="#B08A3E"
+        android:pathData="M34,60 h14 v3 h-14 z" />
+    <path
+        android:fillColor="#B08A3E"
+        android:pathData="M34,65 h8 v3 h-8 z" />
+    <!-- 提醒红点：白描边 + 朱砂，呼应通知红点与逾期色 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,31 a10,10 0 1 1 -0.02,0 z" />
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M73,33 a8,8 0 1 1 -0.02,0 z" />
+</vector>
